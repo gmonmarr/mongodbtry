@@ -11,8 +11,8 @@ npm i
 2. Llenar env
 3. Correr los archivos de pruebas
 ```bash
-node scripts/seedEventsMongo.js n
-node scripts/seedEventsMySQL.js n
+node scripts/seedEventsMongo.js n # reemplazar n con un número, ej. 300
+node scripts/seedEventsMySQL.js n # reemplazar n con un número, ej. 300
 
 node scripts/readEventsMongo.js
 node scripts/readEventsMySQL.js
